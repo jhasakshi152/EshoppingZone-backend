@@ -1,0 +1,32 @@
+2022-07-08 17:56:29,106 DEBUG org.apache.http.headers [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 >> Connection: Keep-Alive
+2022-07-08 17:56:29,109 DEBUG org.apache.http.headers [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 >> User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.1)
+2022-07-08 17:56:29,110 DEBUG org.apache.http.headers [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 >> Accept-Encoding: gzip,deflate
+2022-07-08 17:56:29,110 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 >> "DELETE /eureka/apps/%22PRODUCT-SERVICE%22/localhost:%22product-service%22:9002 HTTP/1.1[\r][\n]"
+2022-07-08 17:56:29,111 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 >> "Accept: application/json, application/*+json[\r][\n]"
+2022-07-08 17:56:29,112 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 >> "Content-Length: 0[\r][\n]"
+2022-07-08 17:56:29,112 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 >> "Host: localhost:8761[\r][\n]"
+2022-07-08 17:56:29,112 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 >> "Connection: Keep-Alive[\r][\n]"
+2022-07-08 17:56:29,112 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.1)[\r][\n]"
+2022-07-08 17:56:29,112 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-07-08 17:56:29,112 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 >> "[\r][\n]"
+2022-07-08 17:56:29,116 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 << "HTTP/1.1 200 [\r][\n]"
+2022-07-08 17:56:29,116 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 << "Content-Type: application/json[\r][\n]"
+2022-07-08 17:56:29,116 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 << "Content-Length: 0[\r][\n]"
+2022-07-08 17:56:29,116 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 << "Date: Fri, 08 Jul 2022 12:26:29 GMT[\r][\n]"
+2022-07-08 17:56:29,116 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 << "Keep-Alive: timeout=60[\r][\n]"
+2022-07-08 17:56:29,116 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 << "Connection: keep-alive[\r][\n]"
+2022-07-08 17:56:29,116 DEBUG org.apache.http.wire [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 << "[\r][\n]"
+2022-07-08 17:56:29,116 DEBUG org.apache.http.headers [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 << HTTP/1.1 200 
+2022-07-08 17:56:29,116 DEBUG org.apache.http.headers [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 << Content-Type: application/json
+2022-07-08 17:56:29,116 DEBUG org.apache.http.headers [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 << Content-Length: 0
+2022-07-08 17:56:29,116 DEBUG org.apache.http.headers [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 << Date: Fri, 08 Jul 2022 12:26:29 GMT
+2022-07-08 17:56:29,117 DEBUG org.apache.http.headers [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 << Keep-Alive: timeout=60
+2022-07-08 17:56:29,117 DEBUG org.apache.http.headers [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13 << Connection: keep-alive
+2022-07-08 17:56:29,117 DEBUG org.apache.http.impl.execchain.MainClientExec [RMI TCP Connection(51)-127.0.0.1] Connection can be kept alive for 60000 MILLISECONDS
+2022-07-08 17:56:29,118 DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager [RMI TCP Connection(51)-127.0.0.1] Connection [id: 13][route: {}->http://localhost:8761] can be kept alive for 60.0 seconds
+2022-07-08 17:56:29,118 DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection [RMI TCP Connection(51)-127.0.0.1] http-outgoing-13: set socket timeout to 0
+2022-07-08 17:56:29,118 DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager [RMI TCP Connection(51)-127.0.0.1] Connection released: [id: 13][route: {}->http://localhost:8761][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2022-07-08 17:56:29,118 DEBUG org.springframework.web.client.RestTemplate [RMI TCP Connection(51)-127.0.0.1] Response 200 OK
+2022-07-08 17:56:29,119 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(51)-127.0.0.1] DiscoveryClient_"PRODUCT-SERVICE"/localhost:"product-service":9002 - deregister  status: 200
+2022-07-08 17:56:29,218 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(51)-127.0.0.1] Completed shut down of DiscoveryClient
+2022-07-08 17:56:29,218 DEBUG com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_4_, is fetching remote regions? false 
