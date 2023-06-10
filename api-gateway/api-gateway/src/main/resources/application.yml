@@ -1,0 +1,25 @@
+server:
+  port: 8999
+  
+eureka:
+  instance:
+    hostname: localhost
+    
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: cart-service
+          url: lb://cart-service
+          predicates:
+            - Path=/cart/**
+        - id: product-service
+          url: lb://product-service
+          predicates:
+            - Path=/product/**
+        - id: profile-service
+          url: lb://profile-service
+          predicates:
+            - Path=/profile/**
